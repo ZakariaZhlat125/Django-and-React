@@ -1,0 +1,36 @@
+.control {
+  text-align: center;
+}
+.control button {
+  margin: 2rem ;
+  width: 45rem;
+  height: 3rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: white;
+  border: 1px solid #680101;
+  border-radius: 12px;
+  background-color: #680101;
+}
+
+.bump {
+    animation: bump 300ms ease-out;
+  }
+  
+  @keyframes bump {
+    0% {
+      transform: scale(1);
+    }
+    10% {
+      transform: scale(0.9);
+    }
+    30% {
+      transform: scale(1.1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
